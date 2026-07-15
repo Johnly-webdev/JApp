@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: theme("colors.ink.600");
+  border-radius: 999px;
+}
+
+*:focus-visible {
+  outline: 2px solid theme("colors.ember.500");
+  outline-offset: 2px;
+}
