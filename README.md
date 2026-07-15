@@ -1,4 +1,4 @@
-# 💬 ChatVerse – Real-Time MERN Chat Application
+# 💬 ChatApp – Real-Time MERN Chat Application
 
 <p align="center">
   <img src="https://img.shields.io/badge/MERN-Full%20Stack-green" />
@@ -213,49 +213,7 @@ npm run dev
 
 ---
 
-## 🔑 Environment Variables
 
-### Backend `.env`
-
-```env
-PORT=5000
-
-MONGODB_URI=
-
-JWT_SECRET=
-
-JWT_REFRESH_SECRET=
-
-FIREBASE_API_KEY=
-
-FIREBASE_PROJECT_ID=
-
-FIREBASE_AUTH_DOMAIN=
-
-CLOUDINARY_CLOUD_NAME=
-
-CLOUDINARY_API_KEY=
-
-CLOUDINARY_API_SECRET=
-
-REDIS_URL=
-
-CLIENT_URL=http://localhost:5173
-```
-
----
-
-## 📡 Deployment
-
-| Service       | Platform      |
-| ------------- | ------------- |
-| Frontend      | Vercel        |
-| Backend       | Render        |
-| Database      | MongoDB Atlas |
-| Media Storage | Cloudinary    |
-| Cache         | Upstash Redis |
-
----
 
 ## 📌 Roadmap
 
